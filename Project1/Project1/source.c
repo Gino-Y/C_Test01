@@ -1,4 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> //<尖括号> 我引用的系统文件
+//#include "" 自定义模块
+#pragma once // 只允许被引用一次
+
 
 int Hello(int i, int j)
 {
